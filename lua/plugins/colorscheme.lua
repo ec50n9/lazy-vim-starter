@@ -18,14 +18,14 @@ return {
     name = "catppuccin",
     opts = {
       flavour = "auto", -- 可选值: "latte", "frappe", "macchiato", "mocha"
-      background = { -- :h background
+      background = {    -- :h background
         light = "latte",
         dark = "mocha",
       },
       transparent_background = true, -- disables setting the background color.
       float = {
-        transparent = true, -- enable transparent floating windows
-        solid = true, -- use solid styling for floating windows, see |winborder|
+        transparent = true,          -- enable transparent floating windows
+        solid = true,                -- use solid styling for floating windows, see |winborder|
       },
     },
     specs = {
@@ -44,7 +44,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "catppuccin-nvim", -- 避开 Neovim runtime 中同名的 catppuccin.vim
     },
   },
 }
