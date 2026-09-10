@@ -1,0 +1,6 @@
+-- Copy this file to ~/.config/nvim/lua/config/local.lua on each machine.
+-- Keep machine-specific Neovim overrides out of Git.
+
+-- Example:
+-- vim.g.neovide_scale_factor = 1.0
+-- vim.opt.guifont = "JetBrainsMono Nerd Font:h14"
